@@ -9,13 +9,13 @@ public class Main {
 		
 		double n = sc.nextDouble();
 
-		if(n > 0.0 && n < 25.00001) {
+		if(n > 0.0 && n <= 25.0) {
 			System.out.println("Intervalo (0,25]");
-		} else if (n > 25.0 && n < 50.0) {
+		} else if (n > 25.0 && n <= 50.0) {
 			System.out.println("Intervalo (25,50]");
-		} else if (n > 50.0 && n < 75.0) {
+		} else if (n > 50.0 && n <= 75.0) {
 			System.out.println("Intervalo (50,75]");
-		} else if (n > 75.0 && n < 100.00001) {
+		} else if (n > 75.0 && n <= 100.0) {
 			System.out.println("Intervalo (75,100]");
 		} else {
 			System.out.println("Fora de intervalo");
