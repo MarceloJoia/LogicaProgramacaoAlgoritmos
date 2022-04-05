@@ -32,7 +32,6 @@ public class Main {
 		case 31:
 			System.out.println("Belo Horizonte");
 			break;
-
 		default:
 			break;
 		}
