@@ -15,8 +15,8 @@ public class Main {
 		double media = 0.0;
 		
 		while(X > 0) {
-			COUNT += 1;
-			media += X;
+			COUNT += (double) 1;
+			media += (double) X;
 			
 			X = sc.nextInt();
 		}
