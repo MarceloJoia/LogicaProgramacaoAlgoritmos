@@ -21,9 +21,6 @@ public class Main {
 				System.out.println("divisao impossivel");
 			}
 		}
-		
 		sc.close();
-
 	}
-
 }
