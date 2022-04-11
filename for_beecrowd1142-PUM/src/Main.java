@@ -8,7 +8,7 @@ public class Main {
 		int n = sc.nextInt();
 
 		int count = 0;
-		for (int i = 0; i<n*4; i++) {
+		for (int i = 1; i<=n*4; i++) {
 			count++;
 			if (count <= 3) {
 				System.out.print(i + " ");
