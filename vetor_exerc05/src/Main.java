@@ -27,6 +27,7 @@ public class Main {
 		for(int i=0; i<N; i++) {
 			media += pares[i];
 		}
+		
 		if(media != 0) {
 			System.out.printf("%.1f%n", media/count);
 		} else {
