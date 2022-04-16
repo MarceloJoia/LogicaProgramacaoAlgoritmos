@@ -27,7 +27,11 @@ public class Main {
 		for(int i=0; i<N; i++) {
 			media += pares[i];
 		}
-		System.out.printf("%.1f%n", media/count);
+		if(media != 0) {
+			System.out.printf("%.1f%n", media/count);
+		} else {
+			System.out.printf("Nao havia nenhum numero par");
+		}
 		
 		sc.close();
 	}
